@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'blogs', 
     'users',
     'crispy_forms',
+    'tinymce',
     'crispy_bootstrap5',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -130,3 +131,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
+LOGIN_REDIRECT_URL = 'index'
